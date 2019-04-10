@@ -37,8 +37,8 @@ AppAsset::register($this);
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav'],
                 'items' => [
-                    ['label' => 'Médicos', 'url' => ['/site/index']],
-                    ['label' => 'Especialidades', 'url' => ['/site/index']],
+                    ['label' => 'Médicos', 'url' => ['/medicos']],
+                    ['label' => 'Especialidades', 'url' => ['/especialidades']],
                 ],
             ]);
             NavBar::end();
